@@ -1,0 +1,90 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	padding: 0 5% 5% 5%
+}
+nav {
+	float: right;
+}
+header:after {
+	content: "";
+	display: block;
+	clear: right;
+}
+li {
+	display: inline-block;
+	font-size: 48px;
+	margin-top: 54px;
+}
+.nav_ca{
+	margin-left: 55px;
+	color: white;
+	font-family: 'MyriadPro-Regular';
+}
+.nav_n{
+	margin-left: 59px;
+	color: white;
+	font-family: 'MyriadPro-Regular';
+}
+.nav_h{
+	color: white;
+	font-family: 'MyriadPro-Regular';
+}
+.heading {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'MyriadPro-Regular';
+}
+.bg {
+	height: 100%;
+	width: 100%;
+	background-color: #56836F;
+	border: 4px solid #006837;
+}
+.logo {
+	float: right;
+	margin: 51px 56px 63px 65px;
+}
+.cont {
+	max-width: 1158px;
+	width: 100%;
+	margin: 0 auto;
+}
+.block_1 {
+	width: 617px ;
+	height: 230px;
+	background-color: #FCEE21;
+	border: 1px solid #707070;
+	float: left;
+}
+.block_2{
+	width: 523px;
+	height: 230px;
+	background-color: #FCEE21;
+	border: 1px solid #707070;
+	float:right;
+}
+.clear {
+	clear: both
+}
+.pic_1 {
+	float :right;
+	margin: 18px 32px 20px 47px;
+}
+.pic_2 {
+	float :left;
+	margin: 18px 22px 20px 26px;
+}
+.p_1{
+	font-size: 14px;
+	margin: 18px 0 22px 26px;
+	font-family: 'Segoe UI';
+}
+.p_2{
+	font-size: 14px;
+	margin: 18px 41px 24px 26px;
+	font-family: 'Segoe UI';
+	color: #006837;
+}
